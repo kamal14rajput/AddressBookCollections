@@ -87,6 +87,14 @@ public class AddressBook implements IAddressBook {
 			}
 		}
 	}
+	
+	public void addMultiplePerson() {
+		System.out.println("Enter a person Name:");
+		String firstName = scanner.nextLine();
+		for (int i = 0; i < personList.size(); i++) {
+			Person person = personList.get(i);
+		}
+	}
 
 	public void display() {
 		for (int i = 0; i < personList.size(); i++) {
