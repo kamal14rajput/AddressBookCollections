@@ -1,11 +1,14 @@
 package com.bridgelabz;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 
 public class AddressBook implements IAddressBook {
 	Scanner scanner = new Scanner(System.in);
 	ArrayList<Person> personList = new ArrayList<Person>();
+	Map<String,Person>hashmap = new HashMap<>();
 
 	@Override
 	public void add() {
