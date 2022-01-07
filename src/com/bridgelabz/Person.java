@@ -1,6 +1,6 @@
 package com.bridgelabz;
 
-
+import java.util.List;
 //initializing persons details
 public class Person {
 	public String firstName;
@@ -21,6 +21,10 @@ public class Person {
 		this.state = state;
 		this.mobileNo = mobileNo;
 		this.zip = zip;
+	}
+	
+	public Person(String name, List<Person> personList) {
+		
 	}
 
 	public String getFirstName() {
